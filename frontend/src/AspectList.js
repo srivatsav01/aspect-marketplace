@@ -2,8 +2,8 @@ import React from 'react';
 
 function AspectList({ onAddAspect }) {
   const aspects = [
-    { name: 'Aspect 1', description: 'Description for Aspect 1' },
-    { name: 'Aspect 2', description: 'Description for Aspect 2' },
+    { name: 'Aspect 1', description: 'Description for Aspect 1' ,id:'0x1d32582793CA312ee73b8F073720b0b86360D948'},
+    { name: 'Aspect 2', description: 'Description for Aspect 2',id:'0x1d32582793CA312ee73b8F073720b0b86360D948' },
     // Add more aspects as needed
   ];
 

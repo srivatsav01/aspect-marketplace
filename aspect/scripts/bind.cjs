@@ -72,6 +72,7 @@ async function bind() {
         aspectId: aspectId,
         aspectVersion: 1,
     })
+    // console.log(bind)
 
     let tx = {
         from: sender.address,
