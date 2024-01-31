@@ -28,12 +28,4 @@ This is a sample project of Artela Aspect.
 
 
 Contract address: 0xD1E33991b7E0998cb5DB61CC60d8297deb9b70Bb
-Aspect Address: 0x1d32582793CA312ee73b8F073720b0b86360D948
-
-npm run contract:bind -- --contract 0xD1E33991b7E0998cb5DB61CC60d8297deb9b70Bb \
-                         --abi ./build/contract/HelloWorld.abi \
-                         --aspectId 0x1d32582793CA312ee73b8F073720b0b86360D948
-
-npm run contract:call -- --contract  0xD1E33991b7E0998cb5DB61CC60d8297deb9b70Bb \
-                         --abi ./build/contract/HelloWorld.abi   \
-                         --method world 
+Aspect Id: 0x1d32582793CA312ee73b8F073720b0b86360D948
