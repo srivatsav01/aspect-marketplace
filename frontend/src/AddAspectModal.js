@@ -36,12 +36,13 @@ function AddAspectModal({ aspect, onClose }) {
         })
 
         let tx = {
-            from: sender.address,
+            from: sender,
             data: binded.encodeABI(),
             to: ASPECT_ADDR,
         }
+        console.log(tx)
 
-        let signedTx = await web3.eth.accounts.signTransaction(tx, sender.privateKey);
+        let signedTx = await web3.eth.sendTransaction(tx)
        
         // console.log('Transaction hash:', bind.transactionHash);
       }catch (error) {
