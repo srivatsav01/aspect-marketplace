@@ -53,10 +53,12 @@ function AddAspectModal({ aspect, onClose }) {
   };
 
   return (
-    <Modal   isOpen={true} 
+    <Modal 
+    isOpen={true} 
     onRequestClose={onClose} 
-    className="relative p-5 bg-white rounded-lg shadow-xl max-w-md mx-auto my-16"
-    overlayClassName="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
+    className="bg-gray-100 rounded-lg p-5 max-w-md mx-auto my-16 shadow-xl"
+    overlayClassName="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
+  >
     <h2 className="text-xl font-semibold text-gray-800">Add Aspect: {aspect?.name}</h2>
     <input className="border border-gray-300 rounded p-2 w-full mt-3" type="text" placeholder="Contract Address" value={contractAddress} onChange={(e) => setContractAddress(e.target.value)} />
     <input className="border border-gray-300 rounded p-2 w-full mt-3" type="text" placeholder="ABI" value={abiFile} onChange={(e) => setAbiFile(e.target.value)} />

@@ -15,13 +15,21 @@ function App() {
     setIsModalOpen(false); // And this should close it
   };
 
+  
   return (
-    <div>
-      <ConnectWallet />
-      <AspectList onAddAspect={openModal} />
-      {isModalOpen && <AddAspectModal aspect={selectedAspect} onClose={closeModal} />}
+    <div className="min-h-screen bg-gradient-to-r from-blue-300 to-blue-600">
+      <header className="text-white text-center pt-8">
+        <h1 className="text-4xl font-bold">Aspect Marketplace</h1>
+        <p className="text-xl mt-2">Discover and bind aspects to your smart contracts</p>
+      </header>
+      <main className="flex flex-col items-center justify-center pt-8">
+        <ConnectWallet />
+        <AspectList onAddAspect={openModal} />
+        {isModalOpen && <AddAspectModal aspect={selectedAspect} onClose={closeModal} />}
+      </main>
     </div>
   );
+
 }
 
 export default App;
