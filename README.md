@@ -35,13 +35,17 @@ Currently i've had some ideas which i haven't got time to implement that i've in
 - **Hack Aspect**: Checks if a specific address is of student or not else it reverts(i've previously implemented a similar project so this would be an extension of that https://ethglobal.com/showcase/educlaim-your-digital-academic-identity-a0ki5)
 - **Student Aspect**: Handles the addition of new aspects, including the input of contract addresses and ABI files.
 
+## Value to the Artela Ecosystem
+The Aspect Marketplace brings several valuable enhancements to the Artela Ecosystem:
 
-## How to Contribute
-Contributors are welcome to enhance the Aspect Marketplace's features, fix bugs, or improve the documentation. Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Commit your changes with clear, descriptive messages.
-4. Create a pull request with a comprehensive description of your changes.
+- **Enhanced Accessibility**: By simplifying the process of managing aspects, the marketplace makes it easier for users to leverage the full potential of Artela's decentralized functionalities. This increased accessibility can encourage wider adoption and usage of dApps within the ecosystem.
+
+- **Improved User Experience**: The user-friendly interface of the marketplace, combined with features such as one-click aspect addition and visual transaction confirmation, significantly improves the overall user experience. This is key for both new and experienced users navigating the complexities of decentralized applications.
+
+- **Increased Efficiency**: The marketplace streamlines the process of adding and managing aspects. This efficiency is especially beneficial for users who interact with multiple dApps and need a centralized, easy-to-navigate platform.
+
+- **Ecosystem Growth**: By providing a platform that simplifies aspect management, the Aspect Marketplace supports the growth of the Artela Ecosystem. It enables developers to create more complex and useful dApps, knowing that users have a reliable tool to manage their aspects.
+
 
 ## Future Enhancements
 - **Extended Aspect Support**: Adding more aspects with diverse functionalities(as mentioned above eg:price aspect, hack aspect)
