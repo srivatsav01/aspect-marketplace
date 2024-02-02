@@ -4,7 +4,7 @@ import React from 'react';
 function AspectList({ onAddAspect }) {
   const aspects = [
     { name: 'Session key Aspect', description: 'Enables Ethereum on-chain accounts (EoA) to extend their capabilities by creating and managing session keys.', id: '0x1d32582793CA312ee73b8F073720b0b86360D948' },
-    { name: 'World Aspect', description: 'Transaction reverts if the function world() does not exist on the contract', id: '0x1d32582793CA312ee73b8F073720b0b86360D948.' },
+    { name: 'World Aspect', description: 'Transaction reverts if the function world() does not exist on the contract', id: '0x1d32582793CA312ee73b8F073720b0b86360D948' },
     { name: 'Reentrancy Aspect', description: 'Aspect can prevent hacks similar to the reentrant attack happened to Curve.fi', id: '0x1d32582793CA312ee73b8F073720b0b86360D948' },
     { name: 'Student Aspect', description: 'Checks if a specific address is of student or not else it reverts', id: '0x1d32582793CA312ee73b8F073720b0b86360D948' },
     { name: 'Price Aspect', description: 'Reverts transactions if token value falls below threshold, ensuring multisig wallet security despite signing delays', id: '0x1d32582793CA312ee73b8F073720b0b86360D948' },
